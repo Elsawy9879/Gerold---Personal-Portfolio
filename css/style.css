@@ -1,0 +1,494 @@
+body {
+  background-color: #0f0715;
+  font-family: "Sora", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-image: linear-gradient(to right, #0f0715 0%, #271643 50%, #0f0816);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  .btn {
+    cursor: pointer;
+    padding: 10px 25px;
+    font-weight: 700;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #2a1454 0%, #8750f7 100%);
+  }
+  .btn:hover {
+    background-image: linear-gradient(to right, #8750f7 0%, #2a1454 100%);
+  }
+  img{
+    width: 50px;
+  }
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.contain {
+  background-image: linear-gradient(to right, #0f0715 0%, #271643 50%, #0f0816);
+
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 200px 20px;
+  color: white;
+}
+
+.hero-content,
+.hero-image {
+  width: 50%;
+}
+.hero-content span {
+  font-size: 36px;
+  color: rgb(221, 221, 221);
+  font-family: "Sora", sans-serif;
+  line-height: 54px;
+  font-weight: 700;
+  vertical-align: baseline;
+  letter-spacing: normal;
+}
+.hero-content h1 {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #8953f7 0%,
+    #bb9cfb 50%,
+    #f0e8fe 100%
+  );
+  color: transparent;
+  font-family: "Sora", sans-serif;
+  font-size: 65px;
+  line-height: 78px;
+  font-weight: 700;
+}
+.hero-content p {
+  font-family: "Sora", sans-serif;
+  text-align: start;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  color: rgb(221, 221, 221);
+  padding-bottom: 50px;
+}
+.hero-image img {
+  transform: rotate(4.9deg);
+  border: 2px solid #2a1454;
+  border-radius: 35px;
+  transition: 0.3s;
+}
+.hero-image img:hover {
+  transform: rotate(0deg);
+  border: 2px solid #8750f7;
+  border-radius: 35px;
+}
+.box {
+  display: flex;
+  a {
+    text-decoration: none;
+  }
+  .download-botton{
+    width: 30%;
+  }
+  .download {
+    color: #49297b;
+    background-color: transparent;
+    border: 2px solid #49297b;
+    padding: 15px;
+    border-radius: 35px;
+    transition: 0.3s;
+  }
+  .download:hover {
+    color: white;
+    background-color: #49297b;
+  }
+}
+.box ul {
+  display: flex;
+}
+.social-icons{
+width: 50%;}
+.box li {
+  list-style: none;
+  border: 2px #49297b solid;
+  border-radius: 35px;
+  padding: 10px;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+.box li:hover {
+  cursor: pointer;
+  background-color: #49297b;
+  a {
+    color: white;
+  }
+}
+.box li a {
+  font-size: 20px;
+  gap: 25px;
+  text-decoration: none;
+  display: flex;
+  color: #49297b;
+}
+.counter {
+  margin: 100px;
+  justify-content: space-between;
+  display: flex;
+}
+.row {
+  display: flex;
+  color: #f0e8fe;
+  width: 25%;
+}
+.number {
+  margin-right: 15px;
+  font-size: 64px;
+  line-height: 24px;
+}
+.text {
+  font-size: 16px;
+}
+.works {
+  background-color: #0f0715;
+  padding-top: 100px;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.works .header {
+  width: 80%;
+  margin: auto;
+}
+.works .header .title {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.works .header .title h2 {
+  font-size: 45px;
+  line-height: 54px;
+  font-family: "Sora", sans-serif;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #8953f7 0%,
+    #bb9cfb 50%,
+    #f0e8fe 100%
+  );
+}
+.works .header .title p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 15px 0px 0px;
+  padding: 0;
+  font-weight: 400;
+}
+.works-buttons {
+  text-align: center;
+  width: 25%;
+  background-color: black;
+  align-items: center;
+  border: transparent 2px;
+  border-radius: 35px;
+  padding: 15px;
+  margin-left: 600px;
+  margin-top: 50px;
+}
+.works-buttons button {
+  font-family: "Sora", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: whitesmoke;
+  padding: 12px;
+  margin-right: 5px;
+  border: transparent 2px;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.btn1 {
+  height: 50px;
+  border-radius: 50%;
+  width: 50px;
+  background-color: #8953f7;
+}
+.btn2 {
+  background-color: black;
+}
+.btn3 {
+  background-color: black;
+}
+.btn4 {
+  background-color: black;
+}
+.releated-works {
+  align-items: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.releated {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 10px;
+  border-top: 30px solid #140c1c;
+  border-right: 30px solid #140c1c;
+  border-left: 30px solid #140c1c;
+}
+
+.portfolio-link {
+  display: flex;
+  border: 2px solid #8750f7;
+  border-radius: 10px;
+  background-color: #8750f7;
+  width: 38%;
+  opacity: 0;
+  position: absolute;
+  margin-top: -150px;
+  margin-bottom: 300px;
+  cursor: pointer;
+  color: white;
+}
+.releated:hover {
+  .portfolio-link {
+    opacity: 1;
+  }
+  .portfolio-link i {
+    transform: rotate(-420deg);
+  }
+}
+.releated h3 {
+  font-family: "Sora", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+.portfolio-link p {
+  font-size: 20px;
+}
+.portfolio-link i {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 100px;
+  display: inline-block;
+  transition: transform 0.5s ease;
+  font-size: 30px;
+}
+.skills {
+  padding-bottom: 100px;
+  text-align: center;
+  color: white;
+  align-items: center;
+  background-color: #0f0715;
+}
+.skills .title-skills h2 {
+  font-size: 45px;
+  line-height: 54px;
+  color: transparent;
+  vertical-align: baseline;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #291453 0%,
+    #cbb3fb 50%,
+    #f7f3fe 100%
+  );
+}
+.skills .title-skills p {
+  color: rgb(221, 221, 221);
+  font-size: 16px;
+  line-height: 24px;
+  margin: 15px 0px 0px;
+}
+.contain-skills {
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.skill {
+  font-size: 20px;
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+  margin-right: 80px;
+  width: 10%;
+  p {
+    color: #291453;
+  }
+}
+.skill:hover {
+  color: #1b0e34;
+  img {
+    scale: 1.02;
+  }
+}
+.skill img {
+  width: 100%;
+  transition: 1s;
+  scale: 0.8;
+}
+.skill-image {
+  height: 150px;
+  width: 120px;
+  background-color: rgba(221, 221, 221, 0.463);
+  border: 2px solid #8750f7 transparent;
+  border-radius: 30px;
+  padding: 30px 30px;
+}
+.skill-image:hover {
+  background-color: #45218c;
+}
+.contact {
+  display: flex;
+  font-family: 'Sora',sans-serif;
+  padding: 50px;
+  background-color: black;
+}
+.contact .left {
+  float: left;
+  width: 50%;
+}
+.contact .right-content {
+  float: right;
+  width: 40%;
+  ul{
+    margin-top:200px ;
+    margin-bottom: 200px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+  }
+  a:hover{
+    color: #8750f7;
+  }
+  li{
+    display: flex;
+  }
+  i{
+    color: white;
+    padding: 30px;
+  }
+  .icon-contact{
+    margin: 10px;
+    background-color: #49297b;
+border: 2px solid transparent;
+border-radius: 50%;
+  }
+}
+
+.contact-form {
+  background-color: #140c1c;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  padding: 50px;
+  margin: 15px;
+}
+.contact-form .contact-title {
+  font-size: 45px;
+  line-height: 54px;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #8953f7 0%,
+    #bb9cfb 50%,
+    #f0e8fe 100%
+  );
+  color: transparent;
+  font-family: "Sora", sans-serif;
+}
+p {
+  color: white;
+}
+.first-name,
+.last-name,
+.email-address,
+.phone-number {
+  width: 250px;
+  height: 40px;
+}
+.select {
+  width: 500px;
+  height: 50px;
+}
+.form-group {
+  padding: 10px;
+}
+.form-control {
+  color: white;
+  background-color: #050709;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+input::placeholder {
+  padding-left: 15px;
+  color: grey;
+}
+textarea {
+  width: 500px;
+  height: 150px;
+}
+.contact-form .btn {
+  cursor: pointer;
+  padding: 15px;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  font-size: 20px;
+  background-image: linear-gradient(to right, #2a1454 0%, #8750f7 100%);
+  color: white;
+  font-family: "Sora", sans-serif;
+  transition: 0.3s ease;
+}
+.contact-form .btn:hover {
+  background-image: linear-gradient(to right, #8750f7 0%, #2a1454 100%);
+}
+footer{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+  text-align: center;
+  img{
+    width: 70px;
+  }
+  p{
+      color: #2a1454;
+a{
+    color: #2a1454;
+
+}
+  }
+}
